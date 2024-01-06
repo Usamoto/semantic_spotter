@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-# Importieren Sie hier weitere Module, die Sie erstellt haben
 
 app = Flask(__name__)
 
