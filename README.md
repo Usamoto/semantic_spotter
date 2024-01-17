@@ -13,7 +13,7 @@ Semantic Spotter is an advanced text analysis tool designed to process and analy
 - **Web Interface**: Simple and user-friendly web interface for interacting with the tool.
 
 ## Getting Started
-
+https://github.com/Usamoto/semantic_spotter
 ### Prerequisites
 
 - Python 3.x
