@@ -2,18 +2,15 @@
 <html>
 <head>
     <title>Semantic Spotter</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-<div class="container">
-    <h1>Semantic Spotter - Query Interface</h1>
-    <form method="post" action="/query">
-        <input type="text" name="query" placeholder="Enter your query" />
-        <button type="submit">Search</button>
-    </form>
-    {% if response %}
-    <p>Response: {{ response }}</p>
-    {% endif %}
-</div>
+<h1>Semantic Spotter</h1>
+<form method="POST" action="/query">
+    <input type="text" name="query" placeholder="Enter your query">
+    <input type="submit" value="Search">
+</form>
+{% if response %}
+<p><strong>Response:</strong> {{ response }}</p>
+{% endif %}
 </body>
 </html>

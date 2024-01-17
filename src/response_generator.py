@@ -1,3 +1,3 @@
 def generate_response(input_text):
-    # Logik zur Antwortgenerierung
+    # Logic  answer generation
     return "Generierte Antwort auf: " + input_text
