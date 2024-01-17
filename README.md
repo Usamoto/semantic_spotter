@@ -54,7 +54,7 @@ Contributions to the Semantic Spotter project are welcome. Please ensure to foll
 
 ## License
 
-[Include License Here]
+
 
 ## Acknowledgments
 
@@ -65,4 +65,3 @@ Contributions to the Semantic Spotter project are welcome. Please ensure to foll
 
 ---
 
-[Include any additional sections such as 'Known Issues', 'Future Improvements', 'Authors', etc.]
