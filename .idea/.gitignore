@@ -1,8 +1,41 @@
-# Default ignored files
-/shelf/
+# Python virtual environment
+venv/
+env/
+
+# Node modules directory
+node_modules/
+
+# Compiled Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Datasets or large data files (uncomment if applicable)
+# data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE specific files
+/.idea/
+*.swp
+*.swo
 /workspace.xml
+/shelf/
+
 # Editor-based HTTP Client requests
 /httpRequests/
+
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# Logs
+*.log
+
+# Other files and directories to ignore (add as needed)
+*.sqlite3
+*.env
